@@ -53,7 +53,7 @@ case ${PYENV} in
 esac
 
 echo_progress_start "Cloning panel"
-git clone https://github.com/liaralabs/swizzin_dashboard.git /opt/swizzin >> ${log} 2>&1
+git clone https://github.com/Dentoo/swizzin_dashboard.git /opt/swizzin >> ${log} 2>&1
 echo_progress_done "Panel cloned"
 
 echo_progress_start "Installing python dependencies"
